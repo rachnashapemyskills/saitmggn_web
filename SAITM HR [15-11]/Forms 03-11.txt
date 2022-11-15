@@ -1,0 +1,40 @@
+FORM 
+<form action="" method="">
+	
+</form>
+
+method : GET or POST
+<input type="" />
+Attributes 
+placeholder
+id
+name
+autofocus
+required
+____________________________________________________
+
+type:
+	text
+	email
+	tel
+	password
+	url
+	file
+	radio
+	checkbox
+	date
+For Creating Dropdown List 
+
+<select> 
+	<option> </option>
+</select>
+
+<textarea />
+
+
+
+
+
+
+
+
