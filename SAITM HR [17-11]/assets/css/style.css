@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.div1
+{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    margin: auto;
+    margin-top: 30px;
+    transition: 2s all ;
+}
+.div1:hover{
+    background-color: yellowgreen;
+    border-radius: 40%;
+}
+a{
+    color: white;
+    word-spacing: 40px;
+   
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 700;
+    background-color: white;
+    color: darkblue;
+}
+.navbar{
+    background-color: black; 
+    border: 12px solid yellow;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 20px  ;
+    text-align: center;
+}
+
+li:first-child{
+    color: brown;
+    font-size: 90px;
+    font-family: jokerman;
+}
+li:last-child{
+    color: blue;
+    font-size: 80px;
+    background-color: pink;
+}
+li:nth-child(even)
+{
+    font-family: jokerman;
+    color: antiquewhite;
+    background-color: deeppink;
+}
+p::first-line
+{
+    font-size: 40px;
+    color: darkblue;
+}
+p::first-letter{
+    font-size: 90px;
+    font-weight: 600;
+    color: red;
+}
+p::before{
+    content: 'This is for before';
+    color: yellowgreen ;
+}

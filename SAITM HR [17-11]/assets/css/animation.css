@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.div1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: aquamarine;
+
+    position: absolute;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-color: yellowgreen;
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        background-color: brown;
+        top: 0;
+        left: 400px;
+    }
+
+    50% {
+        background-color: white;
+        top: 400px;
+        left: 400px;
+    }
+
+    75% {
+        background-color: pink;
+        top: 400px;
+        left: 0;
+    }
+
+    100% {
+        background-color: mediumaquamarine;
+        top: 0;
+        left: 0;
+    }
+
+
+
+
+}
+
+.slider {
+    height: 500px;
+    background-image: url('../images/1.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation-name: slider-img;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slider-img {
+    from {
+        background-image: url('../images/tea.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    to {
+        background-image: url('../images/coffee.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+/* navbar style starts here  */
+nav {
+    background-color: deeppink;
+    margin-bottom: 20px;
+}
+.flex-conatiner {
+    display: flex;
+}
+.flex-item1 {
+    flex: 20%;
+}
+.flex-item2 {
+    flex: 80%;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
